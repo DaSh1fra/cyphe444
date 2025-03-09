@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/blanka');
+                
+*{
+    font-family: "Jost", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 1.25rem;
+}
+
+
+.term1 {
+    padding: 1.5em;
+}
+
+.hmain {
+    color: grey;
+    margin: 13px 0 7px 0;
+    font-size: 1.20rem;
+}
+.command-link{
+    color: #558B2F;
+    margin-left: -20px;
+}
+.input {
+    margin: 13px 0 13px 0;
+}
+input {
+    border: none;
+    outline: none;
+    white-space: pre-wrap;
+    width: 83%;
+    background: transparent;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.old-command {
+    color: grey;
+    margin: 8px 0 8px 0;
+}
+
+.fa-instagram {
+    background: linear-gradient(45deg, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(45deg, #e07a1f, #d7b75e, #c81f6a, #6f268f, #4a48bf);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.fa-x-twitter {
+    background: white;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fa-x-twitter:hover {
+    background: rgb(200, 200, 200);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.disc {
+    color: #2B52E4;
+}
+
+.disc:hover {
+    color: #183087;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+
+.command-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.command-link span{
+    visibility: hidden;
+  }
+
+.command-link:hover span{
+    visibility: visible;
+    color: #558B2F;
+  }
+
+button{
+    background-color: transparent;
+    font: inherit;
+    white-space: nowrap;
+    line-height: 1;
+    border: none;
+}
+
+body {
+    transition: background 0.3s, color 0.3s;
+}
+
+.light-mode {
+    background: white;
+    color: black;
+}
+
+.dark-mode {
+    background: black;
+    color: white;
+}
+
+.light-mode .command-link {
+    color: #4248ca;;
+}
+
+.light-mode .command-link span{
+    color: #4248ca;;
+}
+
+.light-mode .fa-x-twitter{
+    background: black;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.light-mode .fa-x-twitter:hover{
+    background: rgb(136, 134, 134);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.light-mode span{
+    color: #4248ca;
+}
+.dark-mode span{
+    color: #558B2F;
+}
+
+.switch {
+    position: absolute;
+    left: 50%;
+}
+
+.switch input {
+    display: none;
+  }
+  
+.switch .slider {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #558B2F;
+    display: inline-block;
+    transition: all 0.3s ease;
+    position: fixed;
+    top: 10px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  
+.switch input:checked + .slider {
+    background: radial-gradient(circle, #558B2F, #558B2F);
+    border-color: #558B2F;
+  }
+  
+.chronic {
+    font-family: 'Blanka', sans-serif;
+    font-size: 1.10rem;
+    color: #558B2F;
+}  
+
+.goldenex{
+    color: gold;
+}
