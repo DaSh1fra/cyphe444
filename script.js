@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const commands = {
         "about me": "<ul><li>I’m Bilal, 20 yo and I live in Morocco .</li></ul>",
-        "my work": '<ul><li><span>C</span>hrono : A Discord bot I built using Python.</li></ul>',
-        "server": '<ul><li>My Discord server <span class ="chronic">The Chronic</span> : <a href="https://discord.gg/zRkNgZaKCP" target="_blank" class="disc"><i class="fa-brands fa-discord"></i></a></li></ul>',
+        "my work": '<ul><li>Mr X : Custom all-in-one bot made by me for my server – with mini-games, leveling, welcome images, and more!</li></ul>',
+        "server": '<ul><li>My Discord server <span class ="chronic">Mr X Server</span> : <a href="https://discord.gg/2nMGz5zyXM" target="_blank" class="disc"><i class="fa-brands fa-discord"></i></a></li></ul>',
         "contact": '<ul><li>My Instagram : <a href="https://www.instagram.com/cyphe444" target="_blank" class="insta"><i class="fa-brands fa-instagram"></i></a><br></li><li>My X :  <a href="https://x.com/B1l4lXvii/with_replies" target="_blank" class="twitter"><i class="fa-brands fa-x-twitter"></i></a></li></ul>',
         "koko": "بغيت ✋🏻وكاما حسيت😫 هزيت راسي ومشيت😣كاااان🚶نبحاري وااا😼فعيونك انا سهيت😫🫦 بغيت🤚🏻 وكاما حسيت😫 هزيت راسي ومشيت😣كاااان🚶نبحاري وااا😼فعيونك انا سهيت 😫🫦😂",
         "clear": "",
